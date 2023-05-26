@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+.square{
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+}
+.circle{
+  height: 100px;
+  width: 100px;
+  background: blue;
+  border-radius: 50%;
+  color: white;
+}
+
+.square, .circle{
+  display: grid;
+  place-items: center;
+
+}
